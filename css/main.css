@@ -2,25 +2,25 @@
   --color-violeta: #6b63fa;
 }
 
+.bg-image {
+  background-image: url('/assets/undraw_online_banking_re_kwqh.svg');
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
 
 .login {
-    min-height: 100vh;
+min-height: 100vh;
 }
   
-  .bg-image {
-    background-image: url('/assets/undraw_online_banking_re_kwqh.svg');
-    background-size: cover;
-    background-position: 30%;
-  }
-  
-  .login-heading {
-    font-weight: 400;
-  }
-  
-  .btn-login {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    padding: 1em;
-    background-color: var(--color-violeta);
-    color: #fff;
-  }
+.login-heading {
+  font-weight: 400;
+}
+
+.btn-login {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding: 1em;
+  background-color: var(--color-violeta);
+  color: #fff;
+}
